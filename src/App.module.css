@@ -1,0 +1,133 @@
+.setting {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 40px;
+  /* transform: matrix(0, -1, 1, 0, 0, 0); */
+  background: #ebedf2 0% 0% no-repeat padding-box;
+  border: 1px solid #d5d9e2;
+  opacity: 1;
+}
+
+.items,
+.container {
+  display: flex;
+}
+
+.minimize {
+  position: absolute;
+  top: 0px;
+  left: 1800px;
+  width: 40px;
+  height: 40px;
+  background: transparent url("img/minimize.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.smaller {
+  position: absolute;
+  top: 0px;
+  left: 1840px;
+  width: 40px;
+  height: 40px;
+  background: transparent url("img/smaller.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.quit {
+  position: absolute;
+  top: 0px;
+  left: 1880px;
+  width: 40px;
+  height: 40px;
+  background: transparent url("img/Quit.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header {
+  top: 40px;
+  left: 0px;
+  width: 1920px;
+  height: 64px;
+  /* transform: matrix(0, -1, 1, 0, 0, 0); */
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  border: 1px solid #ebedf2;
+  opacity: 1;
+}
+
+.logo {
+  top: 61px;
+  left: 56px;
+  width: 127px;
+  height: 27px;
+  font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-20) /
+    var(--unnamed-line-spacing-27) var(--unnamed-font-family-noto-sans-display);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-141746);
+  text-align: left;
+  font: normal normal 600 20px/27px Noto Sans Display;
+  letter-spacing: 0px;
+  color: #141746;
+  opacity: 1;
+}
+
+.main {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.nav {
+  top: 104px;
+  left: 0px;
+  width: 56px;
+  height: 976px;
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  border: 1px solid #ebedf2;
+  opacity: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.boundingBoxCreate {
+  top: 112px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  background: transparent url("img/Bounding_Box_Create.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.select {
+  top: 160px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  background: transparent url("img/Toolbar_select.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.active {
+  background-color: #d5d9e2;
+  border-radius: 5px;
+}
+
+.boundingBox {
+  top: 265px;
+  left: 407px;
+  width: 160px;
+  height: 160px;
+  background: var(--unnamed-color-5668d9) 0% 0% no-repeat padding-box;
+  background: #5668d9 0% 0% no-repeat padding-box;
+  opacity: 0.2;
+}
