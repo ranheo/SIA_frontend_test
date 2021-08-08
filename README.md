@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# 에스아이에이 사전 코딩 과제 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+작동 기능 : ui 구현, 이미지 전시, 라벨 생성, 라벨 선택, 라벨 삭제 (라벨 이동 미구현)
 
-## Available Scripts
+## ui 구현 및 이미지 전시
 
-In the project directory, you can run:
+![스크린샷 2021-08-08 오후 11 45 25](https://user-images.githubusercontent.com/44520048/128636096-5025e23f-40ce-45d3-83fb-89fe72d19f58.png)
 
-### `yarn start`
+## 라벨 생성 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![스크린샷 2021-08-08 오후 11 49 28](https://user-images.githubusercontent.com/44520048/128636208-5531ba35-fe1c-4b3f-a6bd-40d4de70be8f.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+라벨 생성시 드래그 했을 때 박스가 그려지는 모습이 미 구현됨.
 
-### `yarn test`
+## 라벨 선택 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![스크린샷 2021-08-08 오후 11 49 40](https://user-images.githubusercontent.com/44520048/128636209-3ee1f85a-1d67-41c5-a5aa-830729daaee1.png)
 
-### `yarn build`
+라벨 선택시 오렌지 색으로 테두리 박스가 변경됨. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 라벨 삭제 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![스크린샷 2021-08-08 오후 11 49 54](https://user-images.githubusercontent.com/44520048/128636210-611dd69a-3351-4b5a-804f-1ae25690bc52.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+라벨 선택 모드에서 delete 키 및 backspace 키를 누르면 라벨이 삭제됨.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
